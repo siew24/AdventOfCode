@@ -1,0 +1,25 @@
+[package]
+name = "AdventOfCode2023"
+version = "1.0.0"
+authors = ["siew24 <siew24.dev@gmail.com>"]
+
+[features]
+default = []
+PART_1 = []
+PART_2 = []
+
+[[bin]]
+name = "day_1"
+path = "src/day1.rs"
+
+[[bin]]
+name = "day_2"
+path = "src/day2.rs"
+
+[[bin]]
+name = "day_3"
+path = "src/day3.rs"
+
+[[bin]]
+name = "day_4"
+path = "src/day4.rs"
