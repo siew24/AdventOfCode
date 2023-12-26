@@ -10,7 +10,7 @@ use AdventOfCode2023::{build_default_execute, build_execute, read_lines};
 build_execute!("PART_1", {
     let mut sum = 0;
 
-    for lineResult in read_lines("y2023/inputs/day2.txt").unwrap() {
+    for lineResult in read_lines("inputs/day2.txt").unwrap() {
         if let Ok(line) = lineResult {
             let mut data: Vec<&str> = line.split(":").collect();
 

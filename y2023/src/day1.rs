@@ -9,7 +9,7 @@ use AdventOfCode2023::{build_default_execute, build_execute, read_lines};
 build_execute!("PART_1", {
     let mut sum: u32 = 0;
 
-    if let Ok(lines) = read_lines("y2023/inputs/day1.txt") {
+    if let Ok(lines) = read_lines("inputs/day1.txt") {
         for line in lines {
             if let Ok(result) = line {
                 println!("{}", result);

@@ -6,7 +6,7 @@ use AdventOfCode2023::{build_default_execute, build_execute, read_lines};
 build_execute!("PART_1", {
     let mut sum = 0;
 
-    for line_result in read_lines("y2023/inputs/day4.txt").unwrap() {
+    for line_result in read_lines("inputs/day4.txt").unwrap() {
         if let Ok(line) = line_result {
 
             match line.split(&[':', '|'][..]).map(|data| data.trim()).collect::<Vec<_>>().as_slice() {

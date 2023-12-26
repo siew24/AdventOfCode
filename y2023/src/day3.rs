@@ -16,7 +16,7 @@ build_execute!("PART_1", {
     let mut number_data: Vec<(u32, Range<i32>, Range<i32>, bool)> = Vec::new();
     let mut symbol_data: Vec<(i32, i32)> = Vec::new();
 
-    for lineResult in read_lines("y2023/inputs/day3.txt").unwrap() {
+    for lineResult in read_lines("inputs/day3.txt").unwrap() {
         if let Ok(line) = lineResult {
             // Update engine dimensions
             engine_dimensions.1 += 1;
